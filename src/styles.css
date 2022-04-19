@@ -15,3 +15,14 @@ body {
   width: 100vw;
   overflow: scroll;
 }
+
+.button {
+  background: linear-gradient(90deg,rgba(87, 77, 255, 1) 0%,rgba(207, 0, 255, 1) 100%);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.1s transform ease-out;
+}
