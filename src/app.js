@@ -46,8 +46,7 @@ function main() {
   }
 
   function animateElement(element, x, y, angle) {
-    console.log(`${Math.floor(angle)}deg`);
-
+    console.log();
     element.setAttribute(
       "style",
       `transform: translate3D(${x}px, ${y}px, 0); background: linear-gradient(${Math.floor(
@@ -80,6 +79,8 @@ function main() {
 
           animateElement(element.element, deltaX * 0.2, deltaY * 0.2, angle);
         });
+      } else {
+        animateElement(element.element, 0, 0, 90);
       }
     }
   }
